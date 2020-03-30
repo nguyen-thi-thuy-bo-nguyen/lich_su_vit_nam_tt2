@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Common_page.master.cs" Inherits="tt2_Thuy_I_E.Common_page" %>
+
+<%@ Register Src="~/Menu_child.ascx" TagPrefix="uc1" TagName="Menu_child" %>
+<%@ Register Src="~/footer_page.ascx" TagPrefix="uc1" TagName="footer_page" %>
+
+
+
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="CSS/Menu_child.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div >
+        <uc1:Menu_child runat="server" ID="Menu_child" />
+         <div class="main-page">
+        
+    
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        </div>
+
+
+        <uc1:footer_page runat="server" id="footer_page" />
+
+    </div>
+    </form>
+</body>
+</html>

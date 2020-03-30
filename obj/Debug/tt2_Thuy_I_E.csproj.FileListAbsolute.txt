@@ -1,0 +1,5 @@
+D:\I_and_E\tt2_Thuy_I_E\bin\tt2_Thuy_I_E.dll
+D:\I_and_E\tt2_Thuy_I_E\bin\tt2_Thuy_I_E.pdb
+D:\I_and_E\tt2_Thuy_I_E\obj\Debug\tt2_Thuy_I_E.csprojResolveAssemblyReference.cache
+D:\I_and_E\tt2_Thuy_I_E\obj\Debug\tt2_Thuy_I_E.dll
+D:\I_and_E\tt2_Thuy_I_E\obj\Debug\tt2_Thuy_I_E.pdb
